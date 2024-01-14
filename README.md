@@ -3,7 +3,15 @@
 Generative Adversarial Networks (GANs) have marked a significant milestone in
 the realm of generative vision models, being the first of their kind with a proven
 ability to deceive human perception. In this project, we aim to build from scratch a GAN and its conditional variants (more specifically [DCGAN](https://arxiv.org/abs/1511.06434)).
-We will train them on MNIST, compare them and perform various experiment. 
+We will train them on MNIST, compare them and perform various experiment.
+
+## How to use
+
+The [notebook](2_d_GANs.ipynb) can be used to reproduce every experiment on its own. Using colab, no other installation is required. 
+
+[GANclass.py](GANclass.py) contains all necessary class. 
+
+[train_GAN.py](train_GAN.py) train a cGAN with the defaults parameters and save it. 
 
 ## Unconditional GAN 
 
